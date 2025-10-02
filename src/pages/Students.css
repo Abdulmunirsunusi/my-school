@@ -1,0 +1,85 @@
+.students-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.search-box {
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.student-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.student-form input,
+.student-form button {
+  padding: 10px;
+  font-size: 16px;
+  flex: 1;
+}
+
+.student-form button {
+  background: #004d99;
+  color: white;
+  border: none;
+  cursor: pointer;
+  flex: none;
+  padding: 10px 20px;
+}
+
+.student-form button:hover {
+  background: #003366;
+}
+
+.students-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.students-table th,
+.students-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.students-table th {
+  background: #004d99;
+  color: white;
+}
+
+/* 🎨 Buttons */
+.edit-btn {
+  background: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background: #388e3c;
+}
+
+.delete-btn {
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #d32f2f;
+}

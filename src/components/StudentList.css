@@ -1,0 +1,34 @@
+
+.student-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-list th, .student-list td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.student-list th {
+  background: #004080;
+  color: white;
+}
+
+.student-list button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.student-list button:first-child {
+  background: #ffc107;
+  color: black;
+}
+
+.student-list button:last-child {
+  background: #dc3545;
+  color: white;
+}
